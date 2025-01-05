@@ -1,16 +1,12 @@
 import React from "react";
-import { FaUser, FaEnvelope, FaLock } from "react-icons/fa";
+import { FaEnvelope, FaLock } from "react-icons/fa";
 
-
-const Signup = () => {
-
-  // function 
-
+const Login = () => {
   return (
     <div className="min-h-screen w-full flex items-center justify-center bg-emerald-200">
       <div className="bg-emerald-300 p-8 rounded-lg shadow-lg w-96">
         <div className="text-2xl font-semibold text-center mb-8">
-          Receptionist SignUp
+          Receptionist Login
         </div>
 
         {/* Email Input */}
@@ -41,17 +37,13 @@ const Signup = () => {
 
         {/* Submit Button */}
         <div className="text-center">
-          <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
+          <button className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-600">
             Submit
           </button>
         </div>
-       
       </div>
     </div>
-    
-
-    
   );
 };
 
-export default Signup;
+export default Login;
