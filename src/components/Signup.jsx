@@ -7,8 +7,8 @@ const Signup = () => {
   // function 
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-purple-400">
-      <div className="bg-purple-200 p-8 rounded-lg shadow-lg w-96">
+    <div className="min-h-screen w-full flex items-center justify-center bg-emerald-200">
+      <div className="bg-emerald-300 p-8 rounded-lg shadow-lg w-96">
         <div className="text-2xl font-semibold text-center mb-8">
           Receptionist SignUp
         </div>
@@ -45,9 +45,7 @@ const Signup = () => {
             Submit
           </button>
         </div>
-        <div className="text-center p-4" OnClick={handlePass}>
-          Forget Password
-        </div>
+       
       </div>
     </div>
     
